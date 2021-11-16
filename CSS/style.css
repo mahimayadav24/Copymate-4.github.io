@@ -1,0 +1,210 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, html {
+    overflow-x: hidden;
+}
+
+@font-face {
+    font-family: Montserrat__Bold;
+    src: url('../Fonts/Montserrat/Montserrat-Bold.ttf');
+}
+
+@font-face {
+    font-family: Montserrat__Medium;
+    src: url('../Fonts/Montserrat/Montserrat-Medium.ttf');
+}
+
+.bg__img {
+    position: relative;
+    top: 0;
+}
+
+.section {
+    height: 100vh;
+}
+
+.text__div2 {
+    position: absolute;
+    top: 8%;
+    right: 7%;
+}
+
+.bg__img img {
+    width: 100%;
+}
+
+.red1 {
+    background-color: rgba(188, 93, 67, 0.578);
+    padding: 30px 80px;
+}
+
+.text__content2 h2 {
+    font-size: calc(20pt + 0.15vw);
+    color: rgba(255, 255, 255, 1);
+    font-family: 'Open Sans', sans-serif;
+    letter-spacing: 0.03em;
+    transform: translateX(18px);
+}
+
+.text__content2 h4 {
+    font-size: calc(15pt + 0.15vw);
+    font-family: 'Montserrat__Bold';
+    /* letter-spacing: 0.03em; */
+    text-align: center;
+    color: rgba(44, 65, 79, 1);
+}
+
+.text__content2 span {
+    font-family: 'Montserrat__Bold';
+}
+
+.text__content2 p {
+    font-family: 'Montserrat__Medium';
+    font-size: calc(12pt + 0.15vw);
+    letter-spacing: 0.05em;
+    line-height: 1.4195;
+    margin: 0px 43px;
+    color: rgba(44, 65, 79, 1);
+}
+
+.text__content2 h5 {
+    font-size: calc(15pt + 0.15vw);
+    color: #2C414F;
+    font-family: 'Montserrat__Bold';
+    letter-spacing: 0.03em;
+    line-height: 1.2195;
+    text-align: center;
+}
+
+.gry__text2 span {
+    color: rgba(255, 8, 12, 1);
+}
+
+.button2 {
+    text-align: center;
+}
+
+.button2 button {
+    border: none;
+    background-color: rgba(44, 65, 79, 1);
+    border-radius: 15px;
+    padding: 25px 30px;
+    color: rgba(255, 255, 255, 1);
+    font-size: calc(15pt + 0.15vw);
+    font-family: 'Montserrat__Bold';
+    transition: .3s ease-in-out;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.button2 button:hover {
+    transform: translateY(-2px);
+    transition: .3s ease-in-out;
+    background-color: rgba(188, 93, 67, 1);
+    box-shadow: 0px 12px 20px rgba(66, 66, 66, 0.2);
+}
+
+.fa-long-arrow-alt-right {
+    vertical-align: middle;
+    padding: 0px 8px;
+}
+
+@media screen and (max-width: 1368px) {
+    .button2 {
+        margin: 8px 0px !important;
+    }
+}
+
+@media screen and (max-width: 1280px) {
+    .button2 {
+        margin: 8px 0px !important;
+    }
+}
+
+@media screen and (max-width: 1080px) {
+    .text__content2 h2 {
+        font-size: calc(12pt + 0.15vw);
+    }
+    .text__content2 h4 {
+        font-size: calc(12pt + 0.15vw);
+    }
+    .text__content2 p {
+        font-size: calc(10pt + 0.15vw);
+    }
+    .button2 button {
+        font-size: calc(12pt + 0.15vw);
+        padding: 20px 20px;
+    }
+    .text__content2 h5 {
+        font-size: calc(12pt + 0.15vw);
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .text__div2 {
+        top: 4%;
+        right: 0%;
+    }
+    .red1 {
+        background-color: rgba(188, 93, 67, 0.578);
+        padding: 20px 0px;
+    }
+    .text__content2 h2 {
+        transform: translateX(80px);
+    }
+    .text__content2 p {
+        margin: 0px 15px !important;
+    }
+    .gry__text2 {
+        margin: 8px 0px 0px 0px !important;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .text__content2 h2 {
+        font-size: calc(8pt + 0.15vw);
+    }
+    .text__content2 h4 {
+        font-size: calc(8pt + 0.15vw);
+    }
+    .text__content2 p {
+        font-size: calc(8pt + 0.15vw);
+        margin: 0px 3px !important;
+    }
+    .button2 button {
+        font-size: calc(8pt + 0.15vw);
+        padding: 15px 20px;
+    }
+    .text__content2 h5 {
+        font-size: calc(8pt + 0.15vw);
+    }
+}
+
+@media screen and (max-width: 538px) {
+    .text__content2 h2 {
+        font-size: calc(6pt + 0.15vw);
+        transform: translateX(50px);
+    }
+    .text__content2 h4 {
+        font-size: calc(6pt + 0.15vw);
+        margin: 8px 0px 0px 0px !important;
+    }
+    .text__content2 p {
+        font-size: calc(6pt + 0.15vw);
+        margin: 0px 3px !important;
+    }
+    .button2 button {
+        font-size: calc(6pt + 0.15vw);
+        padding: 10px 20px;
+        border-radius: 10px;
+    }
+    .text__content2 h5 {
+        font-size: calc(6pt + 0.15vw);
+    }
+    .red1 {
+        padding: 10px 0px;
+    }
+}
